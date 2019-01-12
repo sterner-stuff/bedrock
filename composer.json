@@ -28,6 +28,10 @@
       "type": "composer",
       "url": "https://wpackagist.org",
       "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+    },
+    {
+      "type": "composer",
+      "url": "https://composer.deliciousbrains.com/40A91F97170FEEC51808904B48E7B9EC"
     }
   ],
   "require": {
