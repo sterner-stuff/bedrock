@@ -1,8 +1,8 @@
 {
-  "name": "roots/bedrock",
+  "name": "sterner-stuff/bedrock",
   "type": "project",
   "license": "MIT",
-  "description": "WordPress boilerplate with modern development tools, easier configuration, and an improved folder structure",
+  "description": "WordPress boilerplate with modern development tools, easier configuration, and an improved folder structure. Forked for Sterner Stuff.",
   "homepage": "https://roots.io/bedrock/",
   "authors": [
     {
