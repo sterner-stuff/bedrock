@@ -77,6 +77,22 @@ if (env('DATABASE_URL')) {
 }
 
 /**
+ * Redis Settings
+ */
+Config::define('WP_REDIS_HOST', (env('WP_REDIS_HOST') ?? '127.0.0.1'));
+
+Config::define('WP_REDIS_DATABASE', (env('WP_REDIS_DATABASE') ?? 0));
+
+if(env('WP_REDIS_DISABLED')):
+    Config::define('WP_REDIS_DISABLED', env('WP_REDIS_DISABLED'));
+endif;
+
+/**
+ * Force PHPRedis, Predis no longer maintained
+ */
+Config::define('WP_REDIS_CLIENT', env('WP_REDIS_CLIENT') ?? 'pecl');
+
+/**
  * Authentication Unique Keys and Salts
  */
 Config::define('AUTH_KEY', env('AUTH_KEY'));
@@ -87,6 +103,9 @@ Config::define('AUTH_SALT', env('AUTH_SALT'));
 Config::define('SECURE_AUTH_SALT', env('SECURE_AUTH_SALT'));
 Config::define('LOGGED_IN_SALT', env('LOGGED_IN_SALT'));
 Config::define('NONCE_SALT', env('NONCE_SALT'));
+if(env('WP_CACHE_KEY_SALT')):
+    Config::define('WP_CACHE_KEY_SALT', env('WP_CACHE_KEY_SALT'));
+endif;
 
 /**
  * Custom Settings
