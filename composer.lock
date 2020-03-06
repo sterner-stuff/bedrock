@@ -4,8 +4,58 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f32491e1ab7eb74d79d1d8e58c5c6993",
+    "content-hash": "e9e45d7fc4ec1fc791e0b687db52cf83",
     "packages": [
+        {
+            "name": "aaemnnosttv/wp-cli-dotenv-command",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
+                "reference": "1a779dd3645ed49bf1e48b3b35d3b9c8af90fc2c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-dotenv-command/zipball/1a779dd3645ed49bf1e48b3b35d3b9c8af90fc2c",
+                "reference": "1a779dd3645ed49bf1e48b3b35d3b9c8af90fc2c",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6 | ^7.0"
+            },
+            "require-dev": {
+                "behat/behat": "2.5.*",
+                "phpunit/phpunit": "^5.0",
+                "wp-cli/wp-cli": "^1.0"
+            },
+            "type": "wp-cli-package",
+            "autoload": {
+                "psr-4": {
+                    "WP_CLI_Dotenv\\": "src/"
+                },
+                "files": [
+                    "command.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Evan Mattson",
+                    "email": "me@aaemnnost.tv",
+                    "homepage": "https://aaemnnost.tv"
+                }
+            ],
+            "description": "Dotenv commands for WP-CLI",
+            "homepage": "https://aaemnnost.tv/wp-cli-commands/dotenv/",
+            "support": {
+                "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues",
+                "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/master"
+            },
+            "time": "2018-05-21T06:56:59+00:00"
+        },
         {
             "name": "composer/installers",
             "version": "v1.10.0",
@@ -134,6 +184,10 @@
                 "zend",
                 "zikula"
             ],
+            "support": {
+                "issues": "https://github.com/composer/installers/issues",
+                "source": "https://github.com/composer/installers/tree/v1.10.0"
+            },
             "funding": [
                 {
                     "url": "https://packagist.com",
@@ -149,6 +203,97 @@
                 }
             ],
             "time": "2021-01-14T11:07:16+00:00"
+        },
+        {
+            "name": "deliciousbrains-plugin/wp-migrate-db-pro",
+            "version": "1.9.14",
+            "dist": {
+                "type": "zip",
+                "url": "https://composer.deliciousbrains.com/?wc-api=delicious-brains&request=composer_download&package=wp-migrate-db-pro&version=1.9.14"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "deliciousbrains-plugin/wp-migrate-db-pro-cli",
+            "version": "1.3.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://composer.deliciousbrains.com/?wc-api=delicious-brains&request=composer_download&package=wp-migrate-db-pro-cli&version=1.3.5"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "deliciousbrains-plugin/wp-migrate-db-pro-media-files",
+            "version": "1.4.16",
+            "dist": {
+                "type": "zip",
+                "url": "https://composer.deliciousbrains.com/?wc-api=delicious-brains&request=composer_download&package=wp-migrate-db-pro-media-files&version=1.4.16"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "deliciousbrains-plugin/wp-offload-media",
+            "version": "2.5.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://composer.deliciousbrains.com/?wc-api=delicious-brains&request=composer_download&package=wp-offload-media&version=2.5.4"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "extra": {
+                "installer-name": "amazon-s3-and-cloudfront-pro"
+            }
+        },
+        {
+            "name": "ethanclevenger91/sterner-stuff-replace-me",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ethanclevenger91/sterner-stuff-replace-me.git",
+                "reference": "3f7d52782a42490b805b736855757110946458aa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ethanclevenger91/sterner-stuff-replace-me/zipball/3f7d52782a42490b805b736855757110946458aa",
+                "reference": "3f7d52782a42490b805b736855757110946458aa",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "extra": {
+                "installer-name": "proprietary-core"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ethan Clevenger",
+                    "email": "ethan@sternerstuffdesign.com",
+                    "homepage": "https://sternerstuffdesign.com",
+                    "role": "Owner"
+                }
+            ],
+            "description": "ReplaceMe - Proprietary core plugin for Sterner Stuff Design.",
+            "homepage": "https://sternerstuffdesign.com",
+            "support": {
+                "source": "https://github.com/ethanclevenger91/sterner-stuff-replace-me/tree/1.0",
+                "issues": "https://github.com/ethanclevenger91/sterner-stuff-replace-me/issues"
+            },
+            "time": "2017-07-25T04:14:56+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -200,6 +345,10 @@
                 "Result-Type",
                 "result"
             ],
+            "support": {
+                "issues": "https://github.com/GrahamCampbell/Result-Type/issues",
+                "source": "https://github.com/GrahamCampbell/Result-Type/tree/v1.0.1"
+            },
             "funding": [
                 {
                     "url": "https://github.com/GrahamCampbell",
@@ -260,6 +409,11 @@
             "keywords": [
                 "env"
             ],
+            "support": {
+                "email": "oom@oscarotero.com",
+                "issues": "https://github.com/oscarotero/env/issues",
+                "source": "https://github.com/oscarotero/env/tree/v2.1.0"
+            },
             "time": "2020-06-11T10:59:27+00:00"
         },
         {
@@ -315,6 +469,10 @@
                 "php",
                 "type"
             ],
+            "support": {
+                "issues": "https://github.com/schmittjoh/php-option/issues",
+                "source": "https://github.com/schmittjoh/php-option/tree/1.7.5"
+            },
             "funding": [
                 {
                     "url": "https://github.com/GrahamCampbell",
@@ -384,6 +542,11 @@
                 "plugin",
                 "wordpress"
             ],
+            "support": {
+                "forum": "https://discourse.roots.io/",
+                "issues": "https://github.com/roots/bedrock-autoloader/issues",
+                "source": "https://github.com/roots/bedrock-autoloader/tree/1.0.4"
+            },
             "funding": [
                 {
                     "url": "https://github.com/roots",
@@ -430,6 +593,15 @@
                 "cms",
                 "wordpress"
             ],
+            "support": {
+                "docs": "https://developer.wordpress.org/",
+                "forum": "https://wordpress.org/support/",
+                "irc": "irc://irc.freenode.net/wordpress",
+                "issues": "https://core.trac.wordpress.org/",
+                "rss": "https://wordpress.org/news/feed/",
+                "source": "https://core.trac.wordpress.org/browser",
+                "wiki": "https://codex.wordpress.org/"
+            },
             "funding": [
                 {
                     "url": "https://github.com/roots",
@@ -497,6 +669,10 @@
             "keywords": [
                 "wordpress"
             ],
+            "support": {
+                "issues": "https://github.com/roots/wordpress-core-installer/issues",
+                "source": "https://github.com/roots/wordpress-core-installer/tree/master"
+            },
             "funding": [
                 {
                     "url": "https://github.com/roots",
@@ -549,6 +725,10 @@
                 }
             ],
             "description": "Collect configuration values and safely define() them",
+            "support": {
+                "issues": "https://github.com/roots/wp-config/issues",
+                "source": "https://github.com/roots/wp-config/tree/master"
+            },
             "time": "2018-08-10T14:18:38+00:00"
         },
         {
@@ -606,11 +786,66 @@
             "keywords": [
                 "wordpress wp bcrypt password"
             ],
+            "support": {
+                "forum": "https://discourse.roots.io/",
+                "issues": "https://github.com/roots/wp-password-bcrypt/issues",
+                "source": "https://github.com/roots/wp-password-bcrypt/tree/master"
+            },
             "time": "2016-03-01T16:27:06+00:00"
         },
         {
+            "name": "sterner-stuff/made-of-sterner-stuff",
+            "version": "9.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sterner-stuff/made-of-sterner-stuff.git",
+                "reference": "e73bee3df270202a6adfd8baec4b934ad9459187"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sterner-stuff/made-of-sterner-stuff/zipball/e73bee3df270202a6adfd8baec4b934ad9459187",
+                "reference": "e73bee3df270202a6adfd8baec4b934ad9459187",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "oscarotero/env": "^2.1",
+                "roots/wp-config": "^1.0"
+            },
+            "type": "wordpress-muplugin",
+            "autoload": {
+                "psr-4": {
+                    "SternerStuffWordPress\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nick Hoobin",
+                    "email": "nick@webspecdesign.com",
+                    "homepage": "http://webspecdesign.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Ethan Clevenger",
+                    "email": "ethan@sternerstuff.dev",
+                    "homepage": "https://sternerstuff.dev",
+                    "role": "Owner"
+                }
+            ],
+            "description": "Core functionality for built-to-last Sterner Stuff WordPress sites.",
+            "homepage": "https://sternerstuff.dev",
+            "support": {
+                "source": "https://github.com/sterner-stuff/made-of-sterner-stuff/tree/9.1.0",
+                "issues": "https://github.com/sterner-stuff/made-of-sterner-stuff/issues"
+            },
+            "time": "2021-02-02T18:52:11+00:00"
+        },
+        {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.22.0",
+            "version": "v1.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -668,6 +903,9 @@
                 "polyfill",
                 "portable"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.22.1"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -686,16 +924,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.22.0",
+            "version": "v1.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "f377a3dd1fde44d37b9831d68dc8dea3ffd28e13"
+                "reference": "5232de97ee3b75b0360528dae24e73db49566ab1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/f377a3dd1fde44d37b9831d68dc8dea3ffd28e13",
-                "reference": "f377a3dd1fde44d37b9831d68dc8dea3ffd28e13",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/5232de97ee3b75b0360528dae24e73db49566ab1",
+                "reference": "5232de97ee3b75b0360528dae24e73db49566ab1",
                 "shasum": ""
             },
             "require": {
@@ -745,6 +983,9 @@
                 "portable",
                 "shim"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.22.1"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -759,11 +1000,11 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-07T16:49:33+00:00"
+            "time": "2021-01-22T09:19:47+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.22.0",
+            "version": "v1.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
@@ -825,6 +1066,9 @@
                 "portable",
                 "shim"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.22.1"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -905,6 +1149,10 @@
                 "env",
                 "environment"
             ],
+            "support": {
+                "issues": "https://github.com/vlucas/phpdotenv/issues",
+                "source": "https://github.com/vlucas/phpdotenv/tree/v5.3.0"
+            },
             "funding": [
                 {
                     "url": "https://github.com/GrahamCampbell",
@@ -916,6 +1164,96 @@
                 }
             ],
             "time": "2021-01-20T15:23:13+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/iwp-client",
+            "version": "1.9.4.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/iwp-client/",
+                "reference": "tags/1.9.4.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/iwp-client.1.9.4.6.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/iwp-client/"
+        },
+        {
+            "name": "wpackagist-plugin/mailgun",
+            "version": "1.7.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/mailgun/",
+                "reference": "tags/1.7.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mailgun.1.7.7.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mailgun/"
+        },
+        {
+            "name": "wpackagist-plugin/redirection",
+            "version": "5.0.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/redirection/",
+                "reference": "tags/5.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/redirection.5.0.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/redirection/"
+        },
+        {
+            "name": "wpackagist-plugin/tiny-compress-images",
+            "version": "3.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/tiny-compress-images/",
+                "reference": "tags/3.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/tiny-compress-images.3.2.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/tiny-compress-images/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-fail2ban",
+            "version": "4.3.0.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-fail2ban/",
+                "reference": "tags/4.3.0.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-fail2ban.4.3.0.9.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-fail2ban/"
         }
     ],
     "packages-dev": [
@@ -925,12 +1263,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "ba8a590c26ddca3e0011a055cae7fd5ec28dd5f5"
+                "reference": "11b8a607a59818bb21fc9ffb334f03032a6ce5dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/ba8a590c26ddca3e0011a055cae7fd5ec28dd5f5",
-                "reference": "ba8a590c26ddca3e0011a055cae7fd5ec28dd5f5",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/11b8a607a59818bb21fc9ffb334f03032a6ce5dc",
+                "reference": "11b8a607a59818bb21fc9ffb334f03032a6ce5dc",
                 "shasum": ""
             },
             "conflict": {
@@ -989,9 +1327,10 @@
                 "ezsystems/ezplatform": ">=1.7,<1.7.9.1|>=1.13,<1.13.5.1|>=2.5,<2.5.4",
                 "ezsystems/ezplatform-admin-ui": ">=1.3,<1.3.5|>=1.4,<1.4.6",
                 "ezsystems/ezplatform-admin-ui-assets": ">=4,<4.2.1|>=5,<5.0.1|>=5.1,<5.1.1",
-                "ezsystems/ezplatform-kernel": ">=1,<1.0.2.1",
+                "ezsystems/ezplatform-kernel": "<=1.2.5|>=1.3,<=1.3.1",
+                "ezsystems/ezplatform-rest": ">=1.2,<=1.2.2|>=1.3,<=1.3.1",
                 "ezsystems/ezplatform-user": ">=1,<1.0.1",
-                "ezsystems/ezpublish-kernel": ">=5.3,<5.3.12.1|>=5.4,<5.4.14.2|>=6,<6.7.9.1|>=6.8,<6.13.6.3|>=7,<7.2.4.1|>=7.3,<7.3.2.1|>=7.5,<7.5.7.1",
+                "ezsystems/ezpublish-kernel": "<=6.13.8.1|>=7,<=7.5.15.1",
                 "ezsystems/ezpublish-legacy": ">=5.3,<5.3.12.6|>=5.4,<5.4.14.2|>=2011,<2017.12.7.3|>=2018.6,<2018.6.1.4|>=2018.9,<2018.9.1.3|>=2019.3,<2019.3.5.1",
                 "ezsystems/platform-ui-assets-bundle": ">=4.2,<4.2.3",
                 "ezsystems/repository-forms": ">=2.3,<2.3.2.1",
@@ -1019,6 +1358,7 @@
                 "illuminate/database": "<6.20.14|>=7,<7.30.4|>=8,<8.24",
                 "illuminate/encryption": ">=4,<=4.0.11|>=4.1,<=4.1.31|>=4.2,<=4.2.22|>=5,<=5.0.35|>=5.1,<=5.1.46|>=5.2,<=5.2.45|>=5.3,<=5.3.31|>=5.4,<=5.4.36|>=5.5,<5.5.40|>=5.6,<5.6.15",
                 "illuminate/view": ">=7,<7.1.2",
+                "impresscms/impresscms": "<=1.4.2",
                 "ivankristianto/phpwhois": "<=4.3",
                 "james-heinrich/getid3": "<1.9.9",
                 "joomla/archive": "<1.1.10",
@@ -1047,7 +1387,7 @@
                 "nette/nette": ">=2,<2.0.19|>=2.1,<2.1.13",
                 "nystudio107/craft-seomatic": "<3.3",
                 "nzo/url-encryptor-bundle": ">=4,<4.3.2|>=5,<5.0.1",
-                "october/backend": ">=1.0.319,<1.0.470",
+                "october/backend": "<1.1.2",
                 "october/cms": "= 1.0.469|>=1.0.319,<1.0.469",
                 "october/october": ">=1.0.319,<1.0.466",
                 "october/rain": "<1.0.472|>=1.1,<1.1.2",
@@ -1094,7 +1434,7 @@
                 "sensiolabs/connect": "<4.2.3",
                 "serluck/phpwhois": "<=4.2.6",
                 "shopware/core": "<=6.3.4",
-                "shopware/platform": "<=6.3.5",
+                "shopware/platform": "<=6.3.5.1",
                 "shopware/shopware": "<5.6.9",
                 "silverstripe/admin": ">=1.0.3,<1.0.4|>=1.1,<1.1.1",
                 "silverstripe/assets": ">=1,<1.4.7|>=1.5,<1.5.2",
@@ -1130,6 +1470,7 @@
                 "sylius/resource-bundle": "<1.3.14|>=1.4,<1.4.7|>=1.5,<1.5.2|>=1.6,<1.6.4",
                 "sylius/sylius": "<1.6.9|>=1.7,<1.7.9|>=1.8,<1.8.3",
                 "symbiote/silverstripe-multivaluefield": ">=3,<3.0.99",
+                "symbiote/silverstripe-queuedjobs": ">=3,<3.0.2|>=3.1,<3.1.4|>=4,<4.0.7|>=4.1,<4.1.2|>=4.2,<4.2.4|>=4.3,<4.3.3|>=4.4,<4.4.3|>=4.5,<4.5.1|>=4.6,<4.6.4",
                 "symbiote/silverstripe-versionedfiles": "<=2.0.3",
                 "symfony/cache": ">=3.1,<3.4.35|>=4,<4.2.12|>=4.3,<4.3.8",
                 "symfony/dependency-injection": ">=2,<2.0.17|>=2.7,<2.7.51|>=2.8,<2.8.50|>=3,<3.4.26|>=4,<4.1.12|>=4.2,<4.2.7",
@@ -1166,8 +1507,8 @@
                 "titon/framework": ">=0,<9.9.99",
                 "truckersmp/phpwhois": "<=4.3.1",
                 "twig/twig": "<1.38|>=2,<2.7",
-                "typo3/cms": ">=6.2,<6.2.30|>=7,<7.6.32|>=8,<8.7.38|>=9,<9.5.23|>=10,<10.4.10",
-                "typo3/cms-core": ">=8,<8.7.38|>=9,<9.5.23|>=10,<10.4.10",
+                "typo3/cms": ">=6.2,<6.2.30|>=7,<7.6.32|>=8,<8.7.38|>=9,<9.5.25|>=10,<10.4.14|>=11,<11.1.1",
+                "typo3/cms-core": ">=8,<8.7.38|>=9,<9.5.25|>=10,<10.4.14|>=11,<11.1.1",
                 "typo3/flow": ">=1,<1.0.4|>=1.1,<1.1.1|>=2,<2.0.1|>=2.3,<2.3.16|>=3,<3.0.10|>=3.1,<3.1.7|>=3.2,<3.2.7|>=3.3,<3.3.5",
                 "typo3/neos": ">=1.1,<1.1.3|>=1.2,<1.2.13|>=2,<2.0.4",
                 "typo3/phar-stream-wrapper": ">=1,<2.1.1|>=3,<3.1.1",
@@ -1232,6 +1573,10 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
+            "support": {
+                "issues": "https://github.com/Roave/SecurityAdvisories/issues",
+                "source": "https://github.com/Roave/SecurityAdvisories/tree/latest"
+            },
             "funding": [
                 {
                     "url": "https://github.com/Ocramius",
@@ -1242,7 +1587,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-08T17:27:54+00:00"
+            "time": "2021-03-19T20:02:32+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -1293,7 +1638,100 @@
                 "phpcs",
                 "standards"
             ],
+            "support": {
+                "issues": "https://github.com/squizlabs/PHP_CodeSniffer/issues",
+                "source": "https://github.com/squizlabs/PHP_CodeSniffer",
+                "wiki": "https://github.com/squizlabs/PHP_CodeSniffer/wiki"
+            },
             "time": "2020-10-23T02:01:07+00:00"
+        },
+        {
+            "name": "symfony/var-dumper",
+            "version": "v5.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/var-dumper.git",
+                "reference": "002ab5a36702adf0c9a11e6d8836623253e9045e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/002ab5a36702adf0c9a11e6d8836623253e9045e",
+                "reference": "002ab5a36702adf0c9a11e6d8836623253e9045e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/polyfill-php80": "^1.15"
+            },
+            "conflict": {
+                "phpunit/phpunit": "<5.4.3",
+                "symfony/console": "<4.4"
+            },
+            "require-dev": {
+                "ext-iconv": "*",
+                "symfony/console": "^4.4|^5.0",
+                "symfony/process": "^4.4|^5.0",
+                "twig/twig": "^2.13|^3.0.4"
+            },
+            "suggest": {
+                "ext-iconv": "To convert non-UTF-8 strings to UTF-8 (or symfony/polyfill-iconv in case ext-iconv cannot be used).",
+                "ext-intl": "To show region name in time zone dump",
+                "symfony/console": "To use the ServerDumpCommand and/or the bin/var-dump-server script"
+            },
+            "bin": [
+                "Resources/bin/var-dump-server"
+            ],
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "Resources/functions/dump.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Component\\VarDumper\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Provides mechanisms for walking through any arbitrary PHP variable",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "debug",
+                "dump"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/var-dumper/tree/v5.2.5"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-03-06T07:59:01+00:00"
         }
     ],
     "aliases": [],
@@ -1307,5 +1745,5 @@
         "php": ">=7.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.0.0"
 }

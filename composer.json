@@ -23,30 +23,51 @@
     "issues": "https://github.com/roots/bedrock/issues",
     "forum": "https://discourse.roots.io/category/bedrock"
   },
-  "repositories": [
-    {
+  "repositories": {
+    "wpackagist": {
       "type": "composer",
       "url": "https://wpackagist.org",
       "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
     },
-    {
+    "sternerstuff": {
+      "type": "vcs",
+      "url": "git@github.com:sterner-stuff/made-of-sterner-stuff.git"
+    },
+    "deliciousbrains": {
       "type": "composer",
       "url": "https://composer.deliciousbrains.com"
+    },
+    "client-core": {
+      "type": "vcs",
+      "url": "git@github.com:ethanclevenger91/sterner-stuff-replace-me.git"
     }
-  ],
+  },
   "require": {
     "php": ">=7.1",
     "composer/installers": "^1.10",
     "vlucas/phpdotenv": "^5.3",
     "oscarotero/env": "^2.1",
     "roots/bedrock-autoloader": "^1.0",
-    "roots/wordpress": "5.7",
+    "roots/wordpress": ">=5.7",
     "roots/wp-config": "1.0.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0",
+    "wpackagist-plugin/iwp-client": "*",
+    "wpackagist-plugin/mailgun": "*",
+    "wpackagist-plugin/redirection": "*",
+    "wpackagist-plugin/tiny-compress-images": "*",
+    "wpackagist-plugin/wp-fail2ban": "*",
+    "sterner-stuff/made-of-sterner-stuff": "*",
+    "ethanclevenger91/sterner-stuff-replace-me": "*",
+    "deliciousbrains-plugin/wp-migrate-db-pro": "*",
+    "deliciousbrains-plugin/wp-migrate-db-pro-media-files": "*",
+    "deliciousbrains-plugin/wp-migrate-db-pro-cli": "*",
+    "deliciousbrains-plugin/wp-offload-media": "*",
+    "aaemnnosttv/wp-cli-dotenv-command": "^2.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.5.8",
-    "roave/security-advisories": "dev-master"
+    "roave/security-advisories": "dev-master",
+    "symfony/var-dumper": "^5.1"
   },
   "config": {
     "optimize-autoloader": true,
