@@ -54,6 +54,7 @@
     "wpackagist-plugin/iwp-client": "*",
     "wpackagist-plugin/mailgun": "*",
     "wpackagist-plugin/redirection": "*",
+    "wpackagist-plugin/redis-cache": "*",
     "wpackagist-plugin/tiny-compress-images": "*",
     "wpackagist-plugin/wp-fail2ban": "*",
     "sterner-stuff/made-of-sterner-stuff": "*",
@@ -61,13 +62,13 @@
     "deliciousbrains-plugin/wp-migrate-db-pro": "*",
     "deliciousbrains-plugin/wp-migrate-db-pro-media-files": "*",
     "deliciousbrains-plugin/wp-migrate-db-pro-cli": "*",
-    "deliciousbrains-plugin/wp-offload-media": "*",
-    "aaemnnosttv/wp-cli-dotenv-command": "^2.0"
+    "deliciousbrains-plugin/wp-offload-media": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.5.8",
     "roave/security-advisories": "dev-master",
-    "symfony/var-dumper": "^5.1"
+    "symfony/var-dumper": "^5.1",
+    "aaemnnosttv/wp-cli-dotenv-command": "^2.0"
   },
   "config": {
     "optimize-autoloader": true,
