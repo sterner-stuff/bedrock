@@ -4,58 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e9e45d7fc4ec1fc791e0b687db52cf83",
+    "content-hash": "afb841746b2bc25fcf09e366a9346ff3",
     "packages": [
-        {
-            "name": "aaemnnosttv/wp-cli-dotenv-command",
-            "version": "v2.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
-                "reference": "1a779dd3645ed49bf1e48b3b35d3b9c8af90fc2c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-dotenv-command/zipball/1a779dd3645ed49bf1e48b3b35d3b9c8af90fc2c",
-                "reference": "1a779dd3645ed49bf1e48b3b35d3b9c8af90fc2c",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.6 | ^7.0"
-            },
-            "require-dev": {
-                "behat/behat": "2.5.*",
-                "phpunit/phpunit": "^5.0",
-                "wp-cli/wp-cli": "^1.0"
-            },
-            "type": "wp-cli-package",
-            "autoload": {
-                "psr-4": {
-                    "WP_CLI_Dotenv\\": "src/"
-                },
-                "files": [
-                    "command.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Evan Mattson",
-                    "email": "me@aaemnnost.tv",
-                    "homepage": "https://aaemnnost.tv"
-                }
-            ],
-            "description": "Dotenv commands for WP-CLI",
-            "homepage": "https://aaemnnost.tv/wp-cli-commands/dotenv/",
-            "support": {
-                "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues",
-                "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/master"
-            },
-            "time": "2018-05-21T06:56:59+00:00"
-        },
         {
             "name": "composer/installers",
             "version": "v1.10.0",
@@ -1220,6 +1170,24 @@
             "homepage": "https://wordpress.org/plugins/redirection/"
         },
         {
+            "name": "wpackagist-plugin/redis-cache",
+            "version": "2.0.17",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/redis-cache/",
+                "reference": "tags/2.0.17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/redis-cache.2.0.17.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/redis-cache/"
+        },
+        {
             "name": "wpackagist-plugin/tiny-compress-images",
             "version": "3.2.1",
             "source": {
@@ -1257,6 +1225,56 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "aaemnnosttv/wp-cli-dotenv-command",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
+                "reference": "1a779dd3645ed49bf1e48b3b35d3b9c8af90fc2c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-dotenv-command/zipball/1a779dd3645ed49bf1e48b3b35d3b9c8af90fc2c",
+                "reference": "1a779dd3645ed49bf1e48b3b35d3b9c8af90fc2c",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6 | ^7.0"
+            },
+            "require-dev": {
+                "behat/behat": "2.5.*",
+                "phpunit/phpunit": "^5.0",
+                "wp-cli/wp-cli": "^1.0"
+            },
+            "type": "wp-cli-package",
+            "autoload": {
+                "psr-4": {
+                    "WP_CLI_Dotenv\\": "src/"
+                },
+                "files": [
+                    "command.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Evan Mattson",
+                    "email": "me@aaemnnost.tv",
+                    "homepage": "https://aaemnnost.tv"
+                }
+            ],
+            "description": "Dotenv commands for WP-CLI",
+            "homepage": "https://aaemnnost.tv/wp-cli-commands/dotenv/",
+            "support": {
+                "issues": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/issues",
+                "source": "https://github.com/aaemnnosttv/wp-cli-dotenv-command/tree/master"
+            },
+            "time": "2018-05-21T06:56:59+00:00"
+        },
         {
             "name": "roave/security-advisories",
             "version": "dev-master",
