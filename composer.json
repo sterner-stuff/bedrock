@@ -31,7 +31,11 @@
     },
     "sternerstuff": {
       "type": "vcs",
+<<<<<<< HEAD
       "url": "git@github.com:sterner-stuff/made-of-sterner-stuff.git"
+=======
+      "url": "git@github.com:sterner-stuff/wordpress-core.git"
+>>>>>>> f320be7 (Update WP core endpoint.)
     },
     "deliciousbrains": {
       "type": "composer",
