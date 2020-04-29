@@ -4,54 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "84b585a70640f68895dc75ef78ac01cc",
+    "content-hash": "0a597c1a729fe7c51290d50437c50413",
     "packages": [
-        {
-            "name": "aaemnnosttv/wp-cli-dotenv-command",
-            "version": "v2.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
-                "reference": "1a779dd3645ed49bf1e48b3b35d3b9c8af90fc2c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-dotenv-command/zipball/1a779dd3645ed49bf1e48b3b35d3b9c8af90fc2c",
-                "reference": "1a779dd3645ed49bf1e48b3b35d3b9c8af90fc2c",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.6 | ^7.0"
-            },
-            "require-dev": {
-                "behat/behat": "2.5.*",
-                "phpunit/phpunit": "^5.0",
-                "wp-cli/wp-cli": "^1.0"
-            },
-            "type": "wp-cli-package",
-            "autoload": {
-                "psr-4": {
-                    "WP_CLI_Dotenv\\": "src/"
-                },
-                "files": [
-                    "command.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Evan Mattson",
-                    "email": "me@aaemnnost.tv",
-                    "homepage": "https://aaemnnost.tv"
-                }
-            ],
-            "description": "Dotenv commands for WP-CLI",
-            "homepage": "https://aaemnnost.tv/wp-cli-commands/dotenv/",
-            "time": "2018-05-21T06:56:59+00:00"
-        },
         {
             "name": "composer/installers",
             "version": "v1.9.0",
@@ -279,55 +233,6 @@
                 "issues": "https://github.com/ethanclevenger91/sterner-stuff-replace-me/issues"
             },
             "time": "2017-07-25T04:14:56+00:00"
-        },
-        {
-            "name": "ethanclevenger91/sterner-stuff-wordpress-core",
-            "version": "7.8.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ethanclevenger91/sterner-stuff-wordpress-core.git",
-                "reference": "86dac79bac3a065ddb7e4178399f8db9ea10cb31"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ethanclevenger91/sterner-stuff-wordpress-core/zipball/86dac79bac3a065ddb7e4178399f8db9ea10cb31",
-                "reference": "86dac79bac3a065ddb7e4178399f8db9ea10cb31",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "roots/wp-config": "^1.0"
-            },
-            "type": "wordpress-muplugin",
-            "autoload": {
-                "psr-4": {
-                    "SternerStuffWordPress\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nick Hoobin",
-                    "email": "nick@webspecdesign.com",
-                    "homepage": "http://webspecdesign.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Ethan Clevenger",
-                    "email": "ethan@sternerstuffdesign.com",
-                    "homepage": "https://sternerstuffdesign.com",
-                    "role": "Owner"
-                }
-            ],
-            "description": "Baseline settings for Sterner Stuff WordPress sites",
-            "homepage": "https://sternerstuffdesign.com",
-            "support": {
-                "source": "https://github.com/ethanclevenger91/sterner-stuff-wordpress-core/tree/7.8.0",
-                "issues": "https://github.com/ethanclevenger91/sterner-stuff-wordpress-core/issues"
-            },
-            "time": "2020-04-15T02:23:24+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -626,6 +531,55 @@
             "time": "2016-03-01T16:27:06+00:00"
         },
         {
+            "name": "sterner-stuff/made-of-sterner-stuff",
+            "version": "8.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sterner-stuff/made-of-sterner-stuff.git",
+                "reference": "6d45eebb0a3e3ff4db0ee6147e3ada305b2c7ca9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sterner-stuff/made-of-sterner-stuff/zipball/6d45eebb0a3e3ff4db0ee6147e3ada305b2c7ca9",
+                "reference": "6d45eebb0a3e3ff4db0ee6147e3ada305b2c7ca9",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "roots/wp-config": "^1.0"
+            },
+            "type": "wordpress-muplugin",
+            "autoload": {
+                "psr-4": {
+                    "SternerStuffWordPress\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nick Hoobin",
+                    "email": "nick@webspecdesign.com",
+                    "homepage": "http://webspecdesign.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Ethan Clevenger",
+                    "email": "ethan@sternerstuffdesign.com",
+                    "homepage": "https://sternerstuffdesign.com",
+                    "role": "Owner"
+                }
+            ],
+            "description": "Core functionality for built-to-last Sterner Stuff WordPress sites.",
+            "homepage": "https://sternerstuff.dev",
+            "support": {
+                "source": "https://github.com/sterner-stuff/made-of-sterner-stuff/tree/8.0.0",
+                "issues": "https://github.com/sterner-stuff/made-of-sterner-stuff/issues"
+            },
+            "time": "2020-04-29T19:03:10+00:00"
+        },
+        {
             "name": "symfony/polyfill-ctype",
             "version": "v1.15.0",
             "source": {
@@ -826,6 +780,24 @@
             "homepage": "https://wordpress.org/plugins/redirection/"
         },
         {
+            "name": "wpackagist-plugin/redis-cache",
+            "version": "1.5.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/redis-cache/",
+                "reference": "tags/1.5.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/redis-cache.1.5.7.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/redis-cache/"
+        },
+        {
             "name": "wpackagist-plugin/tiny-compress-images",
             "version": "3.2.1",
             "source": {
@@ -863,6 +835,52 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "aaemnnosttv/wp-cli-dotenv-command",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aaemnnosttv/wp-cli-dotenv-command.git",
+                "reference": "1a779dd3645ed49bf1e48b3b35d3b9c8af90fc2c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aaemnnosttv/wp-cli-dotenv-command/zipball/1a779dd3645ed49bf1e48b3b35d3b9c8af90fc2c",
+                "reference": "1a779dd3645ed49bf1e48b3b35d3b9c8af90fc2c",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6 | ^7.0"
+            },
+            "require-dev": {
+                "behat/behat": "2.5.*",
+                "phpunit/phpunit": "^5.0",
+                "wp-cli/wp-cli": "^1.0"
+            },
+            "type": "wp-cli-package",
+            "autoload": {
+                "psr-4": {
+                    "WP_CLI_Dotenv\\": "src/"
+                },
+                "files": [
+                    "command.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Evan Mattson",
+                    "email": "me@aaemnnost.tv",
+                    "homepage": "https://aaemnnost.tv"
+                }
+            ],
+            "description": "Dotenv commands for WP-CLI",
+            "homepage": "https://aaemnnost.tv/wp-cli-commands/dotenv/",
+            "time": "2018-05-21T06:56:59+00:00"
+        },
         {
             "name": "roave/security-advisories",
             "version": "dev-master",

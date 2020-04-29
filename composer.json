@@ -31,7 +31,7 @@
     },
     "sternerstuff": {
       "type": "vcs",
-      "url": "git@github.com:sterner-stuff/wordpress-core.git"
+      "url": "git@github.com:sterner-stuff/made-of-sterner-stuff.git"
     },
     "deliciousbrains": {
       "type": "composer",
@@ -56,7 +56,7 @@
     "wpackagist-plugin/redis-cache": "*",
     "wpackagist-plugin/tiny-compress-images": "*",
     "wpackagist-plugin/wp-fail2ban": "*",
-    "sterner-stuff/wordpress-core": "*",
+    "sterner-stuff/made-of-sterner-stuff": "*",
     "ethanclevenger91/sterner-stuff-replace-me": "*",
     "deliciousbrains-plugin/wp-migrate-db-pro": "*",
     "deliciousbrains-plugin/wp-migrate-db-pro-media-files": "*",
