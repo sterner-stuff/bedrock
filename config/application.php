@@ -90,7 +90,7 @@ endif;
 /**
  * Force PHPRedis, Predis no longer maintained
  */
-Config::define('WP_REDIS_CLIENT', env('WP_REDIS_CLIENT') ?? 'pecl');
+Config::define('WP_REDIS_CLIENT', env('WP_REDIS_CLIENT') ?? 'phpredis');
 
 /**
  * Authentication Unique Keys and Salts
