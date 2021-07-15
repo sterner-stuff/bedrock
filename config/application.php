@@ -93,6 +93,11 @@ endif;
 Config::define('WP_REDIS_CLIENT', env('WP_REDIS_CLIENT') ?? 'phpredis');
 
 /**
+ * WP-Rocket
+ */
+Config::define('WP_CACHE', (env('WP_CACHE') ?? (WP_ENV == 'production' ? true : false)));
+
+/**
  * Authentication Unique Keys and Salts
  */
 Config::define('AUTH_KEY', env('AUTH_KEY'));
