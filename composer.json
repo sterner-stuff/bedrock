@@ -50,7 +50,7 @@
     "roots/bedrock-autoloader": "^1.0",
     "roots/wordpress": ">=5.7.2",
     "roots/wp-config": "1.0.0",
-    "roots/wp-password-bcrypt": "1.0.0",
+    "roots/wp-password-bcrypt": "1.1.0",
     "wpackagist-plugin/iwp-client": "*",
     "wpackagist-plugin/mailgun": "*",
     "wpackagist-plugin/redirection": "*",
