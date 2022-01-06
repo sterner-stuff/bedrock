@@ -73,7 +73,12 @@
     "deliciousbrains-plugin/wp-migrate-db-pro": "*",
     "deliciousbrains-plugin/wp-migrate-db-pro-media-files": "*",
     "deliciousbrains-plugin/wp-migrate-db-pro-cli": "*",
-    "deliciousbrains-plugin/wp-offload-media": "*"
+    "deliciousbrains-plugin/wp-offload-media": "*",
+    "wp-media/wp-rocket": "*",
+		"wp-media/wp-rocket-cli": "*",
+		"wpackagist-plugin/stream": "*",
+		"wpackagist-plugin/zero-spam": "*",
+		"wpackagist-plugin/gravity-forms-zero-spam": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.6.0",
