@@ -2,7 +2,11 @@
   "name": "sterner-stuff/bedrock",
   "type": "project",
   "license": "MIT",
+<<<<<<< HEAD
   "description": "WordPress boilerplate with modern development tools, easier configuration, and an improved folder structure. Forked for Sterner Stuff.",
+=======
+  "description": "WordPress boilerplate with Composer, easier configuration, and an improved folder structure",
+>>>>>>> 1.19.1
   "homepage": "https://roots.io/bedrock/",
   "authors": [
     {
@@ -56,14 +60,14 @@
   },
   "require": {
     "php": ">=7.4",
-    "composer/installers": "^1.12",
-    "vlucas/phpdotenv": "^5.3",
+    "composer/installers": "^2.0",
+    "vlucas/phpdotenv": "^5.4",
     "oscarotero/env": "^2.1",
     "roots/bedrock-autoloader": "^1.0",
-    "roots/wordpress": ">=5.7.2",
+    "roots/bedrock-disallow-indexing": "^2.0",
+    "roots/wordpress": ">=5.9.1",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.1.0",
-    "roots/bedrock-disallow-indexing": "^2.0",
     "sterner-stuff/made-of-sterner-stuff": "*",
     "kinsta/kinsta-mu-plugins": "dev-sterner-stuff",
     "wpackagist-plugin/mailgun": "*",
@@ -81,14 +85,18 @@
 		"wpackagist-plugin/gravity-forms-zero-spam": "*"
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "^3.6.0",
+    "squizlabs/php_codesniffer": "^3.6.2",
     "roave/security-advisories": "dev-latest",
     "symfony/var-dumper": "^5.1",
     "aaemnnosttv/wp-cli-dotenv-command": "^2.0"
   },
   "config": {
     "optimize-autoloader": true,
-    "preferred-install": "dist"
+    "preferred-install": "dist",
+    "allow-plugins": {
+      "composer/installers": true,
+      "roots/wordpress-core-installer": true
+    }
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
