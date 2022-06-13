@@ -81,7 +81,7 @@
 		"wpackagist-plugin/gravity-forms-zero-spam": "*"
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "^3.6.2",
+    "squizlabs/php_codesniffer": "^3.7.0",
     "roave/security-advisories": "dev-latest",
     "symfony/var-dumper": "^5.1",
     "aaemnnosttv/wp-cli-dotenv-command": "^2.0"
