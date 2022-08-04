@@ -61,9 +61,10 @@
     "oscarotero/env": "^2.1",
     "roots/bedrock-autoloader": "^1.0",
     "roots/bedrock-disallow-indexing": "^2.0",
-    "roots/wordpress": ">=5.9.3",
+    "roots/wordpress": "6.0.1",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.1.0",
+    "wpackagist-theme/twentytwentytwo": "^1.2",
     "sterner-stuff/made-of-sterner-stuff": "*",
     "kinsta/kinsta-mu-plugins": "dev-sterner-stuff",
     "wpackagist-plugin/mailgun": "*",
@@ -81,9 +82,9 @@
 		"wpackagist-plugin/gravity-forms-zero-spam": "*"
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "^3.6.2",
+    "squizlabs/php_codesniffer": "^3.7.1",
     "roave/security-advisories": "dev-latest",
-    "symfony/var-dumper": "^5.1",
+    "symfony/var-dumper": "^6.0",
     "aaemnnosttv/wp-cli-dotenv-command": "^2.0"
   },
   "config": {
