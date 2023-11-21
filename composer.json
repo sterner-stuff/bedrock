@@ -79,7 +79,7 @@
 		"wpackagist-plugin/zero-spam": ">=5.4"
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "^3.7.1",
+    "squizlabs/php_codesniffer": "^3.7.2",
     "roave/security-advisories": "dev-latest",
     "symfony/var-dumper": "^6.2",
     "aaemnnosttv/wp-cli-dotenv-command": "^2.1"
