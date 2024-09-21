@@ -52,6 +52,10 @@
     "client-core": {
       "type": "vcs",
       "url": "git@github.com:ethanclevenger91/sterner-stuff-replace-me.git"
+    },
+    "sterner-stuff-satispress": {
+      "type": "composer",
+      "url": "https://stg.satispress.sternerstuff.dev/"
     }
   },
   "require": {
