@@ -55,7 +55,7 @@
     },
     "sterner-stuff-satispress": {
       "type": "composer",
-      "url": "https://stg.satispress.sternerstuff.dev/"
+      "url": "https://stg.satispress.sternerstuff.dev/satispress"
     }
   },
   "require": {
