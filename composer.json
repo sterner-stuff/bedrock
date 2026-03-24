@@ -25,6 +25,12 @@
   },
   "repositories": [
     {
+      "name": "gravity",
+      "type": "composer",
+      "url": "https://composer.gravity.io",
+      "only": ["gravity/*"]
+    },
+    {
       "name": "sterner-stuff/made-of-sterner-stuff",
       "type": "vcs",
       "url": "git@github.com:sterner-stuff/made-of-sterner-stuff.git"
